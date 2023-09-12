@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+  <Units>
+    <Unit Name ="Player">
+      <UnitAction Action="FastAttack" Key="FastAttack"/>
+      <UnitAction Action="StrongAttack" Key="StrongAttack"/>
+      <UnitAction Action="IMPACT" Key="Hit"/>
+    </Unit>
+    <Unit Name ="RedMelee">
+      <UnitAction Action="FastAttack" Key="FastAttack" Min="0" Max="3"/>
+      <UnitAction Action="StrongAttack" Key="StrongAttack" Min="0" Max="3"/>
+      <UnitAction Action="IMPACT" Key="Hit"/>
+	    <UnitAction Action="Die" Key="Die"/>
+    </Unit>
+    <Unit Name ="BluMelee">
+      <UnitAction Action="FastAttack" Key="FastAttack" Min="0" Max="3"/>
+      <UnitAction Action="StrongAttack" Key="StrongAttack" Min="0" Max="3"/>
+      <UnitAction Action="IMPACT" Key="Hit"/>
+      <UnitAction Action="Die" Key="Die"/>
+    </Unit>
+    <Unit Name ="GreenMelee">
+      <UnitAction Action="FastAttack" Key="FastAttack" Min="0" Max="3"/>
+      <UnitAction Action="StrongAttack" Key="StrongAttack" Min="0" Max="3"/>
+      <UnitAction Action="IMPACT" Key="Hit"/>
+      <UnitAction Action="Die" Key="Die"/>
+    </Unit>
+  </Units>
+</Configs>

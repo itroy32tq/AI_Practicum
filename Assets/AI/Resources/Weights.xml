@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Weights>
+  <!--Коэффициенты изменения приоритетов ботов по действиям игрока-->
+  <Player>
+    <Weight Actions ="IMPACT" Results="Completed" Params="FastAttack StrongAttack" Coef="0,3"/>
+    <Weight Actions ="FastAttack StrongAttack" Results="Successfully" Params="Block" Coef="0,5"/>
+  </Player>
+</Weights>

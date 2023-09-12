@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f585730f354877c4d971e1bc46c47b0c, type: 3}
+  m_Name: PlayerStatsConfiguration
+  m_EditorClassIdentifier: 
+  _unitType: 1
+  _baseParams:
+    MaxHealth: 100
+    MaxMana: 100
+    HPRegenPerSec: 0.01
+    MPRegenPerSec: 0.01
+  _mobilityParams:
+    MoveSpeed: 3.5
+    RotateSpeed: 1.5
+    JumpForce: 5
+  _battleParams:
+    Armor: 0
+    FastAttackDamage: 5
+    StrongAttackDamage: 10
+    CriticalMultiplier: 1
+  _probabilityParams:
+    CriticalChance: 0.05
+    EvadeChance: 0.05
+    MissChance: 0.25
